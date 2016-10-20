@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/KontrolAltDelete/TicTacToe.png)](https://travis-ci.org/KontrolAltDelete/TicTacToe)
 # TicTacToe
 Late-term Assignment
 
