@@ -12,5 +12,7 @@ Maríus Sævarsson
 Sandra Ösp Stefánsdóttir
 Sindri Örn Elvarsson
 
+![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
+
 
 
