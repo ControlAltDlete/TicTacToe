@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.BoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-26T18:47:11" hostname="DESKTOP-GRPIHLO" time="0.016">
+<testsuite name="is.ru.TicTacToe.BoardTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-26T22:34:40" hostname="DESKTOP-GRPIHLO" time="0.0">
   <properties/>
-  <testcase name="testBoardClass" classname="is.ru.TicTacToe.BoardTest" time="0.016"/>
+  <testcase name="testNewBoard" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
