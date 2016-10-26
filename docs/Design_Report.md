@@ -44,5 +44,7 @@ Comment: Lýsing á virkni falls skal alltaf vera skilgreind í athugasemdi fyri
 ##Klasarit (Class Diagram)
 
 
+![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
+
 
 
