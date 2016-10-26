@@ -14,4 +14,3 @@ public class BoardTest {
 		assertEquals(true, b.isEmpty());
 
 	}
-}

@@ -1,5 +1,6 @@
 package is.ru.TicTacToe;
 
+
 public class Board
 {
 	private int ROW_SIZE = 3;
