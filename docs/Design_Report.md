@@ -13,6 +13,7 @@ Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
 Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 
 ##Upphafshönnun (e.Initial Design) <br />
+Okkur fannst best að sýna þá upphafshönnun sem við vorum með í huga með því að búa til klasarit. 
 
 ##Forritunarreglur (e.Coding Rules) <br />
 
@@ -54,7 +55,7 @@ Lýsing  á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan f
 Einnar línur comment byrja á "//"
 
 
-##Forritunaraðferðir (Coding Method)
+##Forritunaraðferðir (Coding Method) <br />
 
 ##Klasarit (Class Diagram)
 
