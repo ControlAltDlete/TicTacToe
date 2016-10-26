@@ -15,7 +15,9 @@ Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 ##Upphafshönnun (e.Initial Design) <br />
 
 ##Forritunarreglur (e.Coding Rules) <br />
-Slaufusvigar: Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu á falli eða klasa.
+
+###Slaufusvigar<br />
+Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu á falli eða klasa.
 
     public int myFunction(){
         ...
@@ -25,13 +27,14 @@ Slaufusvigar: Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu �
 Allir slaufusvigar eru skilgreindir í nýrri línu á eftir klasanafni. <br />
 Klasanöfn skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöfn skulu í öllum tilvikum vera lýsandi. <br />
 
-    public class MyClass{
+    public class MyClass(){
         ...
     }
 
 ###Föll <br />
-Fallanöfn skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng <br />
-    className<
+Fallanöfn skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng. <br />
+  
+    public int myFunction(){
         ...
     }
 
@@ -44,7 +47,7 @@ Breytur skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Gott 
 
 Fastar eru alltaf skrifaðir í hástöfum og ef fastinn heitir meira en einu nafni þá eru nöfnin aðskilin með niðurstriki á milli. 
 
-    final int MAX_COUNT = 10; <br />
+    final int MAX_COUNT = 10;
 
 ###Comment <br/>
 Lýsing  á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan fallið. <br />
