@@ -21,7 +21,7 @@ Slaufusvigar: Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu �
         ...<br />
     }<br />
 
-#Klasar <br />
+###Klasar <br />
 Allir slaufusvigar eru skilgreindir í nýrri línu á eftir klasanafni. <br />
 Klasanöfn skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöfn skulu í öllum tilvikum vera lýsandi. <br />
 
@@ -29,14 +29,14 @@ Klasanöfn skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöf
         ...<br />
     }
 <br />
-#Föll <br />
+###Föll <br />
 Fallanöfn skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng <br />
     className<br />
         ...<br />
     }
 <br />
 
-Breytur og fastar <br />
+###Breytur og fastar <br />
 Breytur skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Gott er að hafa breytuorð nafnorð. <br />
 <br />
     int iCount = 0;
@@ -46,7 +46,7 @@ Fastar eru alltaf skrifaðir í hástöfum og ef fastinn heitir meira en einu na
 <br />
     final int MAX_COUNT = 10; <br />
 
-#Comment
+###Comment <br/>
 Lýsing  á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan fallið. <br />
 Einnar línur comment byrja á "//"
 
