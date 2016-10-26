@@ -14,7 +14,7 @@ public class Player{
 	}
 
 	//Get player name
-    public int getName(){
+    public String getName(){
 		return name;
   	}
 
