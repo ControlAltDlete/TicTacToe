@@ -2,7 +2,7 @@
 
 ##Hugbúnaðarfræði - Síðannarverkefni
 
-Hópur: Ctrl+Alt+Del
+Hópur: Ctrl+Alt+Del <br />
 Hópmeðlimir:<br />
 Ásta Bergsdóttir - astab14@ru.is  <br />
 Bryndís Arna Borgþórsdóttir - bryndis15@ru.is <br />
@@ -13,33 +13,49 @@ Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
 Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 
 ##Upphafshönnun (e.Initial Design) <br />
+Okkur fannst best að sýna þá upphafshönnun sem við vorum með í huga með því að búa til klasarit. 
 
 ##Forritunarreglur (e.Coding Rules) <br />
-Slaufusvigar: Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu á falli eða klasa.
-<br />
-public int myFunction(){<br />
-	...<br />
-}<br />
 
-Klasar:  Allir slaufusvigar eru skilgreindir í nýrri línu á eftir klasanafni. <br />
-Klasanöfn: Þau skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöfn skulu í öllum tilvikum vera lýsandi. <br />
+###Slaufusvigar<br />
+Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu á falli eða klasa.
 
-public class MyClass{<br />
-	...<br />
-}
-<br />
-Fallanöfn: Þau skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng <br />
-className<br />
-	// kóði<br />
-}
-<br />
+    public int myFunction(){
+        ...
+    }
 
-Breytunöfn: Þau skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Gott er að hafa breytuorð nafnorð. <br />
-	intX
+###Klasar <br />
+Allir slaufusvigar eru skilgreindir í nýrri línu á eftir klasanafni. <br />
+Klasanöfn skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöfn skulu í öllum tilvikum vera lýsandi. <br />
 
-Comment: Lýsing á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan fallið. <br />
+    public class MyClass(){
+        ...
+    }
 
-##Forritunaraðferðir (Coding Method)
+###Föll <br />
+Fallanöfn skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng. <br />
+  
+    public int myFunction(){
+        ...
+    }
+
+
+###Breytur og fastar <br />
+Breytur skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Gott er að hafa breytuorð nafnorð. <br />
+
+    int iCount = 0;
+
+
+Fastar eru alltaf skrifaðir í hástöfum og ef fastinn heitir meira en einu nafni þá eru nöfnin aðskilin með niðurstriki á milli. 
+
+    final int MAX_COUNT = 10;
+
+###Comment <br/>
+Lýsing  á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan fallið. <br />
+Einnar línur comment byrja á "//"
+
+
+##Forritunaraðferðir (Coding Method) <br />
 
 ##Klasarit (Class Diagram)
 
