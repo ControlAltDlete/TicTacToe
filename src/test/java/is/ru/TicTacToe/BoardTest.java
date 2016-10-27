@@ -14,14 +14,28 @@ public class BoardTest {
 
 	}
 
-	@Test (expected = ArrayIndexOutOfBoundsException.class)
+	@Test
 	public void testIfLegalMove() {
 		Board b = new Board();
 
 		assertEquals(false, b.checkIfMoveIsLegal(3,4));
 	}
-<<<<<<< HEAD
+
+	@Test 
+	public void testInsertOne() {
+		Board b = new Board();
+		b.pickField(0 ,0 ,'X');
+		
+		assertEquals('X', b.board[0][0]);
+	}
+	
+	@Test 
+	public void testInsertSamePlace() {
+		Board b = new Board();
+		
+		assertEquals(true, b.pickField(0, 0, 'X'));
+		assertEquals('X', b.board[0][0]);
+		assertEquals(false, b.pickField(0, 0, 'O'));
+		assertEquals('X', b.board[0][0]);
+	}
 }
-=======
-}
->>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
