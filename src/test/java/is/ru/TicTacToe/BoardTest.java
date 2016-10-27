@@ -20,4 +20,8 @@ public class BoardTest {
 
 		assertEquals(false, b.checkIfMoveIsLegal(3,4));
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5

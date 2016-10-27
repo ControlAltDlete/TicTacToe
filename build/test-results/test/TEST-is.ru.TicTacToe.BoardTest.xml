@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="is.ru.TicTacToe.BoardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-27T21:54:39" hostname="OlafurAlbert" time="0.004">
   <properties/>
   <testcase name="testIfLegalMove" classname="is.ru.TicTacToe.BoardTest" time="0.004"/>
+=======
+<testsuite name="is.ru.TicTacToe.BoardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-27T15:06:17" hostname="DESKTOP-GRPIHLO" time="0.003">
+  <properties/>
+  <testcase name="testIfLegalMove" classname="is.ru.TicTacToe.BoardTest" time="0.003"/>
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
   <testcase name="testNewBoard" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

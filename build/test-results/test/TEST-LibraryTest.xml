@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-27T21:54:39" hostname="OlafurAlbert" time="0.001">
+=======
+<testsuite name="LibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-10-27T15:06:17" hostname="DESKTOP-GRPIHLO" time="0.001">
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
   <properties/>
   <testcase name="testSomeLibraryMethod" classname="LibraryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

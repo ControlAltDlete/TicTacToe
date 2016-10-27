@@ -9,6 +9,12 @@ public class Board {
 	private int COLUMN_SIZE = 3;
 	public char board[][] = new char[ROW_SIZE][COLUMN_SIZE];
 
+<<<<<<< HEAD
+=======
+	public enum StateOfGame {
+		StillPlaying, Draw, Xwon, Ywon;
+	}
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
 
 	public Board() {
 
@@ -18,6 +24,10 @@ public class Board {
 			}
 		}	
 
+<<<<<<< HEAD
+=======
+		//StateOfGAme = StillPlaying;
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
 	}
 
 	public boolean isEmpty() {
@@ -39,6 +49,7 @@ public class Board {
 			return true;
 		}
 		return false;
+<<<<<<< HEAD
 	}
 
 	/*public void boardDisplay(char[][] board) {
@@ -54,6 +65,23 @@ public class Board {
 		}
 	}
 
+=======
+	}
+
+	public void boardDisplay(char[][] board) {
+
+		for (int i = 0; i < ROW_SIZE; i++) {
+			for (int j = 0; j < COLUMN_SIZE; j++) {
+					
+				System.out.println("hello world");
+			}
+			//StdOut.printf("\n");
+			//StdOut.println("-----------");
+				
+		}
+	}
+
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
 	public static void main (String[] args) {
 
 		char [][] b = new char[3][3];
@@ -70,6 +98,10 @@ public class Board {
 			}
 		}
 
+<<<<<<< HEAD
 	}*/
+=======
+	}
+>>>>>>> 90470cf11a8e49baadaeb52f2aded8f4305b4ab5
 
 }
