@@ -53,4 +53,22 @@ public class BoardTest {
 
 
 	}
+
+	@Test 
+	public void testIfGameIsDrawn() {
+		
+		Board b = new Board();
+	    
+	    b.pickField(0, 0, 'X');
+	    b.pickField(0, 1, 'O');
+	    b.pickField(0, 2, 'X');
+	    b.pickField(1, 0, 'O');
+	    b.pickField(1, 1, 'O');
+	    b.pickField(1, 2, 'X');
+	    b.pickField(2, 0, 'X');
+	    b.pickField(2, 1, 'X');
+	    b.pickField(2, 2, 'O');
+	    assertEquals(false, b.gameIsDrawn());
+
+	}
 }

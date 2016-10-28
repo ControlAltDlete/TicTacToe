@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.BoardTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2016-10-28T11:09:24" hostname="DESKTOP-GRPIHLO" time="0.008">
+<testsuite name="is.ru.TicTacToe.BoardTest" tests="6" skipped="0" failures="1" errors="0" timestamp="2016-10-28T11:25:06" hostname="DESKTOP-GRPIHLO" time="0.008">
   <properties/>
-  <testcase name="testInsertSamePlace" classname="is.ru.TicTacToe.BoardTest" time="0.004"/>
-  <testcase name="testIfGameIsWon" classname="is.ru.TicTacToe.BoardTest" time="0.003">
+  <testcase name="testInsertSamePlace" classname="is.ru.TicTacToe.BoardTest" time="0.003"/>
+  <testcase name="testIfGameIsWon" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
+  <testcase name="testInsertOne" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
+  <testcase name="testIfGameIsDrawn" classname="is.ru.TicTacToe.BoardTest" time="0.003">
     <failure message="java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at is.ru.TicTacToe.BoardTest.testIfGameIsWon(BoardTest.java:52)
+	at is.ru.TicTacToe.BoardTest.testIfGameIsDrawn(BoardTest.java:71)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +56,6 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="testInsertOne" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <testcase name="testIfLegalMove" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <testcase name="testNewBoard" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <system-out><![CDATA[Move not legal

@@ -129,4 +129,26 @@ public class Board {
 
 		return false;
 	}
+
+	public boolean boardIsFull() {
+
+		for (int i = 0; i < ROW_SIZE; i ++) {
+			for (int j = 0; j < COLUMN_SIZE; j++) {
+
+				if (board[i][j] == ' ') {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+
+	public boolean gameIsDrawn() {
+
+		if (boardIsFull() && !gameIsWon()) {
+			return true;
+		}
+
+		return false;
+	}
 }
