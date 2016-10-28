@@ -45,7 +45,7 @@ public class Board {
 			return true;
 		}
 		else{
-			System.out.println("Move not legal");
+			System.out.println("Illegal move, please try again.");
 			return false;
 		}
 	}
@@ -81,6 +81,7 @@ public class Board {
 	public boolean gameIsDrawn() {
 
 		if (boardIsFull() && !(gameIsWon('X') || gameIsWon('O'))) {
+			System.out.println("It's a tie!");
 			return true;
 		}
 
