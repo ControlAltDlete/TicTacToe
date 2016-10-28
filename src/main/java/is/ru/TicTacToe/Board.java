@@ -152,5 +152,16 @@ public class Board {
 		return false;
 	}
 
+	public void displayBoard() {
+
+		for (int i = 0; i < ROW_SIZE; i++) {
+				for (int j = 0; j < COLUMN_SIZE; j++) {
+					
+					System.out.print(board[i][j] + " | ");
+				}
+				System.out.println("\n-----------");
+			}
+			System.out.println();
+	}
 	
 }
