@@ -50,83 +50,18 @@ public class Board {
 		}
 	}
 
-	public boolean gameIsWon() {
-
-		//diagonal left to right
-		if (board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X') {
-			System.out.println("X won the game!");
+	public boolean gameIsWon(char symbol) {
+		if(board[0][0] == symbol && board[0][1] == symbol && board[0][2] == symbol ||
+				board[1][0] == symbol && board[1][1] == symbol && board[1][2] == symbol ||
+				board[2][0] == symbol && board[2][1] == symbol && board[2][2] == symbol ||
+				board[0][0] == symbol && board[1][0] == symbol && board[2][0] == symbol ||
+				board[0][1] == symbol && board[1][1] == symbol && board[2][1] == symbol ||
+				board[0][2] == symbol && board[1][2] == symbol && board[2][2] == symbol ||
+				board[0][0] == symbol && board[1][1] == symbol && board[2][2] == symbol ||
+				board[2][0] == symbol && board[1][1] == symbol && board[0][2] == symbol){
+			System.out.println(symbol + " won the game!");
 			return true;
 		}
-		if (board[0][0] == 'O' && board[1][1] == 'O' && board[2][2] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-		//diagonal right to left
-		if (board[0][2] == 'X' && board[1][1] == 'X' && board[2][0] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[0][2] == 'O' && board[1][1] == 'O' && board[2][0] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-
-		//horizontal top line.
-		if (board[0][0] == 'X' && board[0][1] == 'X' && board[0][2] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[0][0] == 'O' && board[0][1] == 'O' && board[0][2] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-		//horizontal middle line
-		if (board[1][0] == 'X' && board[1][1] == 'X' && board[1][2] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[1][0] == 'O' && board[1][1] == 'O' && board[1][2] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-		//horizontal bottom line
-		if (board[2][0] == 'X' && board[2][1] == 'X' && board[2][2] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[2][0] == 'O' && board[2][1] == 'O' && board[2][2] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-
-		//vertical left line
-		if (board[0][0] == 'X' && board[1][0] == 'X' && board[2][0] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[0][0] == 'O' && board[1][0] == 'O' && board[2][0] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-		//vertical middle line
-		if (board[0][1] == 'X' && board[1][1] == 'X' && board[2][1] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[0][1] == 'O' && board[1][1] == 'O' && board[2][1] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-		//vertical left line
-		if (board[0][2] == 'X' && board[1][2] == 'X' && board[2][2] == 'X') {
-			System.out.println("X won the game!");
-			return true;
-		}
-		if (board[0][2] == 'O' && board[1][2] == 'O' && board[2][2] == 'O') {
-			System.out.println("O won the game!");
-			return true;
-		}
-
 		return false;
 	}
 
