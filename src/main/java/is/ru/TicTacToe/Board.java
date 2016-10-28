@@ -155,14 +155,13 @@ public class Board {
 	public void displayBoard() {
 
 		for (int i = 0; i < ROW_SIZE; i++) {
-			for (int j = 0; j < COLUMN_SIZE; j++) {
-				
-				System.out.println(array[i][j] + " | ");
+				for (int j = 0; j < COLUMN_SIZE; j++) {
+					
+					System.out.print(board[i][j] + " | ");
+				}
+				System.out.println("\n-----------");
 			}
-
-			System.out.prinln("\n");
-			System.out.println("-----------");
-		}
+			System.out.println();
 	}
 
 	
