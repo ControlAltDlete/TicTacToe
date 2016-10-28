@@ -45,7 +45,7 @@ public class Board {
 			return true;
 		}
 		else{
-			System.out.println("Move not legal");
+			System.out.println("Illegal move, please try again.");
 			return false;
 		}
 	}
