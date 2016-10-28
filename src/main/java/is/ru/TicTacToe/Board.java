@@ -157,11 +157,11 @@ public class Board {
 		for (int i = 0; i < ROW_SIZE; i++) {
 			for (int j = 0; j < COLUMN_SIZE; j++) {
 				
-				System.out.printf(array[i][j] + " | ");
+				System.out.println(array[i][j] + " | ");
 			}
-			System.out.printf("\n");
+
+			System.out.prinln("\n");
 			System.out.println("-----------");
-			
 		}
 	}
 
