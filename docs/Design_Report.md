@@ -6,7 +6,7 @@
 **Hópmeðlimir**:<br />
 * Ásta Bergsdóttir - astab14@ru.is  <br />
 * Bryndís Arna Borgþórsdóttir - bryndis15@ru.is <br />
-* Carlos Ragnar Kárason - carlosk12 @ru.is  <br />
+* Carlos Ragnar Kárason - carlosk12@ru.is  <br />
 * Ólafur Albert Sævarsson - olafurs15@ru.is  <br />
 * Maríus Sævarsson - marius15@ru.is  <br />
 * Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
@@ -57,17 +57,17 @@ Einnar línur comment byrja á "//"
 
 ##Forritunaraðferðir (Coding Method) <br />
 ###TDD <br />
-Við notum TDD í verkefninu okkar sem er sem stendur fyrir Test Drive Development og er árangursríkt ferli um þróun á hugbúnaði. Ferlið byggir á því að skrifað er test fyrir hluta kerfisins og hann síðan fenginn til að feila. Næst er skrifaður kóði þangað til að testið gengur í gegn. Þá er hægt að commita kóðanum og einnig refactora ef þarf. 
+Við notum TDD í verkefninu okkar sem er sem stendur fyrir _Test Drive Development_ og er árangursríkt ferli um þróun á hugbúnaði. Ferlið byggir á því að skrifað er test fyrir hluta kerfisins og hann síðan fenginn til að feila. Næst er skrifaður kóði þangað til að testið gengur í gegn. Þá er hægt að commita kóðanum og einnig refactora ef þarf. 
 
 ###Branches <br />
 Við ákváðum að best yrði að gera branch fyrir hvern hluta kerfisins. 
 
 ###Markdown syntax <br/ >
 Til þess að útskýra verkefnið enn frekar erum við með þrjár skýrslur sem allar eru geymdar í möppu sem heitir "docs" í rótinni á verkefninu. 
-Við notum _ markdown syntax_ í skýrslunum. 
+Við notum _markdown syntax_ í skýrslunum. 
 
 ###Pair programming <br />
-Við studdumst að mestu leiti við pair programming í þessu verkefni. Okkur finnst það góð aðferð til þess að læra hvort af öðru og hlutirnir ganga hraðar fyrir sig. Við skiptumst á að kóða, þar sem hinn aðilinn las jafnóðum yfir kóðann og kom með athugasemdir ef þurfti. 
+Við studdumst að mestu leiti við_pair programming_ í þessu verkefni. Okkur finnst það góð aðferð til þess að læra hvort af öðru og hlutirnir ganga hraðar fyrir sig. Við skiptumst á að kóða, þar sem hinn aðilinn las jafnóðum yfir kóðann og kom með athugasemdir ef þurfti. 
 
 
 ##Klasarit (Class Diagram)
