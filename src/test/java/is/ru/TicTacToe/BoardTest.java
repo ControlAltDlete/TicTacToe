@@ -44,14 +44,13 @@ public class BoardTest {
 
 		Board b = new Board();
 
-	    b.pickField(0, 0, 'X');
-	    b.pickField(0, 1, 'O');
-	    b.pickField(1, 1, 'X');
-	    b.pickField(2, 1, 'O');
-	    b.pickField(2, 2, 'X');
-	    assertEquals(true, b.gameIsWon());
-
-
+	    	b.pickField(0, 0, 'X');
+	    	b.pickField(0, 1, 'O');
+	    	b.pickField(1, 1, 'X');
+	    	b.pickField(2, 1, 'O');
+	    	b.pickField(2, 2, 'X');
+	    	assertEquals(true, b.gameIsWon('X'));
+		assertEquals(false, b.gameIsWon('O'));
 	}
 
 	@Test 

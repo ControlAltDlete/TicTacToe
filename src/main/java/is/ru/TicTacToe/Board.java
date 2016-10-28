@@ -80,7 +80,7 @@ public class Board {
 
 	public boolean gameIsDrawn() {
 
-		if (boardIsFull() && !gameIsWon()) {
+		if (boardIsFull() && !(gameIsWon('X') || gameIsWon('O'))) {
 			return true;
 		}
 
