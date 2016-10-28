@@ -2,7 +2,7 @@
 
 ##Hugbúnaðarfræði - Síðannarverkefni
 
-**Hópur:**_ Ctrl+Alt+Del_ <br />
+**Hópur:* *_Ctrl+Alt+Del_ <br />
 **Hópmeðlimir**:<br />
 * Ásta Bergsdóttir - astab14@ru.is  <br />
 * Bryndís Arna Borgþórsdóttir - bryndis15@ru.is <br />
