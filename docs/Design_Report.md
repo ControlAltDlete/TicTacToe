@@ -2,7 +2,7 @@
 
 ##Hugbúnaðarfræði - Síðannarverkefni
 
-**Hópur:* *_Ctrl+Alt+Del_ <br />
+**Hópur:** _Ctrl+Alt+Del_ <br />
 **Hópmeðlimir**:<br />
 * Ásta Bergsdóttir - astab14@ru.is  <br />
 * Bryndís Arna Borgþórsdóttir - bryndis15@ru.is <br />
@@ -14,6 +14,10 @@
 
 ##Upphafshönnun (e.Initial Design) <br />
 Okkur fannst best að sýna þá upphafshönnun sem við vorum með í huga með því að búa til klasarit. 
+
+![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
+
+
 
 ##Forritunarreglur (e.Coding Rules) <br />
 
@@ -72,8 +76,7 @@ Við studdumst að mestu leiti við_pair programming_ í þessu verkefni. Okkur 
 
 ##Klasarit (Class Diagram)
 
-
-![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
+Hér má sjá endanlega klasaritið okkar. Það sem breyttist frá upphafshönnunni var það að við ákváðum að taka út Symbol klasann þar sem okkur fannst hann óþarfur.
 
 
 
