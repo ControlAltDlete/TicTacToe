@@ -10,7 +10,14 @@ public class TicTacToeTest{
 	Player player2 = new Player("Player 2");
 
 	@Test
-	public void testMain(){
+	public void testIfClassesAreCreated(){
+		assertNotNull("Class not created", newBoard);
+		assertNotNull("Class not created", player1);
+		assertNotNull("Class not created", player2);
+	}
+
+	@Test
+	public void testIf(){
 
 	}
 }
