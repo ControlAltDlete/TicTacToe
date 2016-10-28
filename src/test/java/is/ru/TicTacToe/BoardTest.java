@@ -68,7 +68,7 @@ public class BoardTest {
 	    b.pickField(2, 0, 'X');
 	    b.pickField(2, 1, 'X');
 	    b.pickField(2, 2, 'O');
-	    assertEquals(false, b.gameIsDrawn());
+	    assertEquals(true, b.gameIsDrawn());
 
 	}
 }
