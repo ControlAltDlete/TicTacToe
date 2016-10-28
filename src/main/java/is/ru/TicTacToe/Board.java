@@ -146,6 +146,7 @@ public class Board {
 	public boolean gameIsDrawn() {
 
 		if (boardIsFull() && !gameIsWon()) {
+			System.out.println("It's a tie!");
 			return true;
 		}
 
@@ -163,6 +164,5 @@ public class Board {
 			}
 			System.out.println();
 	}
-
 	
 }

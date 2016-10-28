@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.BoardTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-10-28T13:35:52" hostname="Taco" time="0.004">
+<testsuite name="is.ru.TicTacToe.BoardTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-10-28T14:34:06" hostname="DESKTOP-GRPIHLO" time="0.007">
   <properties/>
-  <testcase name="testInsertSamePlace" classname="is.ru.TicTacToe.BoardTest" time="0.002"/>
+  <testcase name="testInsertSamePlace" classname="is.ru.TicTacToe.BoardTest" time="0.004"/>
   <testcase name="testIfGameIsWon" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <testcase name="testInsertOne" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <testcase name="testIfGameIsDrawn" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
   <testcase name="testIfLegalMove" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
-  <testcase name="testNewBoard" classname="is.ru.TicTacToe.BoardTest" time="0.0"/>
+  <testcase name="testNewBoard" classname="is.ru.TicTacToe.BoardTest" time="0.001"/>
   <system-out><![CDATA[Move not legal
 X won the game!
+It's a tie!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

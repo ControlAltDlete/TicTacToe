@@ -17,22 +17,39 @@ public class TicTacToe{
 		int secondNr;
 		Scanner input = new Scanner(System.in);
 
-		while(!gameBoard.gameIsWon() || !gameBoard.gameIsDrawn()){
+		while(!(gameBoard.gameIsWon()) && !(gameBoard.gameIsDrawn())){
 			gameBoard.displayBoard();
 
 			if(player1Turn){
-				System.out.println("Player 1 move, choose a field to put an X: ");
+				System.out.println("Player 2 move, choose a field to put an X: ");
 				
 				firstNr =  input.nextInt();
 				input.nextLine();
 				secondNr =  input.nextInt();
 				input.nextLine();
 
+				System.out.println();
 				System.out.println(firstNr + ", " + secondNr);
+				
+				boolean legalMove = gameBoard.pickField(firstNr, secondNr, 'X'); 
+				
+				while (!legalMove) {
+					System.out.print("Try again: ");
+				
+					firstNr =  input.nextInt();
+					input.nextLine();
+					secondNr =  input.nextInt();
+					input.nextLine();
 
-				gameBoard.pickField(firstNr, secondNr, 'X');
+					System.out.println();
+					System.out.println(firstNr + ", " + secondNr);
 
-				player1Turn = false;
+					legalMove = gameBoard.pickField(firstNr, secondNr, 'X');
+				}
+
+
+			 	player1Turn = false;
+				
 			}	
 			else{
 				System.out.println("Player 1 move, choose a field to put an O: ");
@@ -42,12 +59,30 @@ public class TicTacToe{
 				secondNr =  input.nextInt();
 				input.nextLine();
 
+				System.out.println();
 				System.out.println(firstNr + ", " + secondNr);
 
-				gameBoard.pickField(firstNr, secondNr, 'O');
+				boolean legalMove = gameBoard.pickField(firstNr, secondNr, 'O');
+
+				while (!legalMove) {
+					System.out.print("Try again: ");
+				
+					firstNr =  input.nextInt();
+					input.nextLine();
+					secondNr =  input.nextInt();
+					input.nextLine();
+
+					System.out.println();
+					System.out.println(firstNr + ", " + secondNr);
+
+					legalMove = gameBoard.pickField(firstNr, secondNr, 'O');
+				}
 
 				player1Turn = true;
+				
 			}
 		}
+		System.out.println();
+		gameBoard.displayBoard();
 	}
 }
