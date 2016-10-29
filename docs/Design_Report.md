@@ -13,10 +13,12 @@
 * Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 
 ##Upphafshönnun (e.Initial Design) <br />
-Okkur fannst best að sýna þá upphafshönnun sem við vorum með í huga með því að búa til klasarit. 
+Við bjuggum til klasarit fyrir þá upphafshönnun sem við vorum með í huga. Klasaritið gefur góða yfirsýn yfir virkni forritsins í grófum dráttum og
+einnig nýttist það vel til hliðsjónar þegar við vorum að forrita. Við gerðum þó ráð fyrir því að góðar líkur væru á því að ritið myndi breytast í ferlinu. 
+Ritið sýnir helstu branch sem við ætlum að öllum líkundum að notast við.
+<br /> 
 
 ![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
-
 
 
 ##Forritunarreglur (e.Coding Rules) <br />
@@ -73,10 +75,6 @@ Við notum _markdown syntax_ í skýrslunum.
 ###Pair programming <br />
 Við studdumst að mestu leiti við_pair programming_ í þessu verkefni. Okkur finnst það góð aðferð til þess að læra hvort af öðru og hlutirnir ganga hraðar fyrir sig. Við skiptumst á að kóða, þar sem hinn aðilinn las jafnóðum yfir kóðann og kom með athugasemdir ef þurfti. 
 
-
-##Klasarit (Class Diagram)
-
-Hér má sjá endanlega klasaritið okkar. Það sem breyttist frá upphafshönnunni var það að við ákváðum að taka út Symbol klasann þar sem okkur fannst hann óþarfur.
 
 
 
