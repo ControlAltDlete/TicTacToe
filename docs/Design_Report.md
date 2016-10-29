@@ -66,7 +66,8 @@ Einnar línur comment byrja á "//"
 Við notum TDD í verkefninu okkar sem er sem stendur fyrir _Test Drive Development_ og er árangursríkt ferli um þróun á hugbúnaði. Ferlið byggir á því að skrifað er test fyrir ákveðinn hluta kerfisins og hann síðan fenginn til að feila. Næst er skrifaður kóði þangað til að testið gengur í gegn. Þá er hægt að commita kóðanum og einnig refactora ef þarf. 
 
 ###Branches <br />
-Við ákváðum að best yrði að gera branch fyrir hverja aðgerð kerfisins. Branch auðvelda  
+Við ákváðum að best yrði að gera branch fyrir hvern klasa kerfisins ásamt því að vera með branch fyrir alla skjölun verkefnisins. Branch auðvelda okkur að vinna í sitthvorum hluta kerfis svo að við séum ekki að kóða ofan í hvort annað.
+Branches gera einnig kerfið lesanlegara ef farið er yfir það á GitHub.
 
 ###Markdown syntax <br/ >
 Til þess að útskýra verkefnið enn frekar erum við með þrjár skýrslur sem allar eru geymdar í möppu sem heitir "docs" í rótinni á verkefninu. 
