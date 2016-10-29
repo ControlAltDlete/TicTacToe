@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-28T16:37:58" hostname="i-1217c9a8.cs1004cloud.internal" time="0.002">
+<testsuite name="is.ru.TicTacToe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-29T14:15:10" hostname="DESKTOP-ITL5A8B" time="0.001">
   <properties/>
   <testcase name="testIfClassIsCreated" classname="is.ru.TicTacToe.PlayerTest" time="0.0"/>
-  <testcase name="testIfNameIsSet" classname="is.ru.TicTacToe.PlayerTest" time="0.002"/>
+  <testcase name="testIfNameIsSet" classname="is.ru.TicTacToe.PlayerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
