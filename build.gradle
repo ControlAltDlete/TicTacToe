@@ -20,6 +20,11 @@ repositories {
     jcenter()
 }
 
+task stage {
+  dependsOn installDist
+}
+
+
 sourceSets {
     main.java.srcDir "src/main/java"
 }
