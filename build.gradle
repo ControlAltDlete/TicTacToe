@@ -49,3 +49,10 @@ jar {
     )
   }
 }
+<<<<<<< HEAD
+=======
+
+run{
+ standardInput = System.in
+}
+>>>>>>> f69dc2a8db99a9d3d8cd14eb5e6ebdd4efc8af49
