@@ -88,16 +88,32 @@ public class Board {
 		return false;
 	}
 
-	public void displayBoard() {
+	public void displayBoard2() {
 
 		for (int i = 0; i < ROW_SIZE; i++) {
 				for (int j = 0; j < COLUMN_SIZE; j++) {
-					
 					System.out.print(board[i][j] + " | ");
 				}
 				System.out.println("\n-----------");
 			}
 			System.out.println();
 	}
-	
+
+	public void displayBoard() {
+		System.out.println(" " + getSymbolForDisplay(1, board[0][0]) + " | " + getSymbolForDisplay(2, board[0][1]) + " | " + getSymbolForDisplay(3, board[0][2]));
+		System.out.println("------------------");
+		System.out.println(" " + getSymbolForDisplay(4, board[1][0]) + " | " + getSymbolForDisplay(5, board[1][1]) + " | " + getSymbolForDisplay(6, board[1][2]));
+		System.out.println("------------------");
+		System.out.println(" " + getSymbolForDisplay(7, board[2][0]) + " | " + getSymbolForDisplay(8, board[2][1]) + " | " + getSymbolForDisplay(9, board[2][2]));
+
+	}
+
+	public String getSymbolForDisplay(int counter, char symbol){
+		if(symbol == ' '){
+			return "("+counter+")";
+		}
+		else{
+			return " "+symbol+" ";
+		}
+	}
 }
