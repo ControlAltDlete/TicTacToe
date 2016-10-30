@@ -1,75 +1,76 @@
-#Design Report for TicTacToe
+#Design Report
 
-##Hugbúnaðarfræði - Síðannarverkefni
+##TicTacToe <br />
+The TicTacToe challenge is a simple game for two players, X and O, who take turns marking the spaces in a 3x3 grid.
+The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
+The following example is won by the second player, 0:
 
-**Hópur:** _Ctrl+Alt+Del_ <br />
-**Hópmeðlimir**:<br />
-* Ásta Bergsdóttir - astab14@ru.is  <br />
-* Bryndís Arna Borgþórsdóttir - bryndis15@ru.is <br />
-* Carlos Ragnar Kárason - carlosk12@ru.is  <br />
-* Ólafur Albert Sævarsson - olafurs15@ru.is  <br />
-* Maríus Sævarsson - marius15@ru.is  <br />
-* Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
-* Sindri Örn Elvarsson - sindrie15@ru.is  <br />
+image ....  
 
-##Upphafshönnun (e.Initial Design) <br />
-Við bjuggum til klasarit fyrir þá upphafshönnun sem við vorum með í huga. Klasaritið gefur góða yfirsýn yfir virkni forritsins í grófum dráttum og
-einnig nýttist það vel til hliðsjónar þegar við vorum að forrita. Við gerðum þó ráð fyrir því að góðar líkur væru á því að ritið myndi breytast í ferlinu. 
-Ritið sýnir helstu branch sem við ætlum að öllum líkundum að notast við.
+##Initial Design <br />
+We made class diagram for the initial design we had in mind. The class diagram gives a good overview over the game's classes, their attributes, operations and/or methods.
+It also shows the relationships between the classes and how we decided on the branches to use. 
+We used the class diagram when we were programming the game although we knew it would probably change in the process.
 <br /> 
 
 ![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
 
 
-##Forritunarreglur (e.Coding Rules) <br />
+##Coding Rules <br />
 
-###Slaufusvigar<br />
-Allir slaufusvigar eru skilgreindir strax á eftir skilgreiningu á falli eða klasa.
+###Brackets<br />
+All brackets should be opened at the end of a statement (class/function)  and closed in the beginning of a line. <br /> 
 
     public int myFunction(){
         ...
     }
 
-###Klasar <br />
-Allir slaufusvigar eru skilgreindir í nýrri línu á eftir klasanafni. <br />
-Klasanöfn skulu byrja á stórum staf og alltaf fylgja Pascal casing. Klasanöfn skulu í öllum tilvikum vera lýsandi. <br />
+###Classes <br />
+Classes should always follow the rule of_Pascal casing_ where the first letter of each word is capitalized. 
+Use noun when naming classes.  <br />
 
     public class MyClass(){
         ...
     }
 
-###Föll <br />
-Fallanöfn skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Fallanöfn skulu í öllum tilvikum vera lýsandi en þó ekki of löng. <br />
+###Functions <br />
+Functions should always follow the rule of _Camel casing_ where the first letter is in lowercase. 
+Use descriptive names for functions and not too long.<br />
   
     public int myFunction(){
         ...
     }
 
 
-###Breytur og fastar <br />
-Breytur skulu byrja á litlum staf og alltaf fylgja reglu um Camel casing. Gott er að hafa breytuorð nafnorð. <br />
+###Variables and constants <br />
+Variable names start with a lower case and always follow the rule of _Camel casing_. 
+Use nouns when naming variables. <br />
 
     int iCount = 0;
 
-
-Fastar eru alltaf skrifaðir í hástöfum og ef fastinn heitir meira en einu nafni þá eru nöfnin aðskilin með niðurstriki á milli. 
+To name constants use uppercase for each word and seperate each pair of words with an underscore. <br />
 
     final int MAX_COUNT = 10;
 
-###Comment <br/>
-Lýsing  á virkni falls skal alltaf vera skilgreind í athugasemdi fyrir ofan fallið. <br />
-Einnar línur comment byrja á "//"
+###Comments <br/>
+All one-line comments starts with "//"
+Use one-line comments to explain implementation details such as the purpose of specific variables and expressions. <br />
+Explain local variable declaration with and end-line comment.
 
 
-##Forritunaraðferðir (Coding Method) <br />
+##Coding Method <br />
 ###TDD <br />
-Við notum TDD í verkefninu okkar sem er sem stendur fyrir _Test Drive Development_ og er árangursríkt ferli um þróun á hugbúnaði. Ferlið byggir á því að skrifað er test fyrir ákveðinn hluta kerfisins og hann síðan fenginn til að feila. Næst er skrifaður kóði þangað til að testið gengur í gegn. Þá er hægt að commita kóðanum og einnig refactora ef þarf. 
+We use _Test Driven Development (TDD)_ in our project. It is a software development process that relies on the repetition of a very short development cycle. Requirements are turned into very specific **test cases**, then the software is improved to oass the new tests only.
+When the code is succesful we can commit the code and then refactor it if neccessary. 
 
 ###Branches <br />
-Við ákváðum að best yrði að gera branch fyrir hvern klasa kerfisins ásamt því að vera með branch fyrir alla skjölun verkefnisins. Branch auðvelda okkur að vinna í sitthvorum hluta kerfis svo að við séum ekki að kóða ofan í hvort annað.
-Branches gera einnig kerfið lesanlegara ef farið er yfir það á GitHub.
+We decided to use feature branches for every class in our project and one branch for all documentation.  
+Branches make it easier for us to work on seperate part of the project 
+Branch auðvelda okkur að vinna í sitthvorum hluta kerfis svo að við séum ekki að kóða ofan í hvort annað.
+Branches also make the project easier to read if you go over it on GitHub.
 
 ###Markdown syntax <br/ >
+For our project we have three reports to our code more clear.
 Til þess að útskýra verkefnið enn frekar erum við með þrjár skýrslur sem allar eru geymdar í möppu sem heitir "docs" í rótinni á verkefninu. 
 Við notum _markdown syntax_ í skýrslunum. 
 
