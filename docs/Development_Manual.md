@@ -4,7 +4,7 @@
 
 ###Setup the Ubuntu Server
 If you don't have the Ubuntu Server setup already please start by following this Ubuntu Setup Manual: 
-![alt img](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/pdfs/2016-advania-setup.pdf)
+![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
 
 ###Clone repository to your Ubuntu user account
 Sign in to the Ubuntu Server as the user you created with the command _ssh <username>@82.221.48.15_.
