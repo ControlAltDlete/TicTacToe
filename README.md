@@ -13,4 +13,9 @@
 * Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
 * Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 
+[Developers manual](docs/DeveloperManual.md)
+
+[Administration manual](docs/AdministratorManual.md)
+
+[Design report](docs/DesignReport.md)
 
