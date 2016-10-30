@@ -16,7 +16,6 @@ public class TicTacToe{
 		boolean player1Turn = true;
 		int move;
 		int moveForBoard[];
-		int secondNr;
 		Scanner input = new Scanner(System.in);
 
 		while(!(gameBoard.gameIsWon('X') || gameBoard.gameIsWon('O')) && !(gameBoard.gameIsDrawn())){
@@ -27,12 +26,8 @@ public class TicTacToe{
 
 				move =  input.nextInt();
 				input.nextLine();
-				//secondNr =  input.nextInt();
-				//input.nextLine();
-				moveForBoard = game.changeInput(move);
 
-				//System.out.println();
-				//System.out.println(firstNr + ", " + secondNr);
+				moveForBoard = game.changeInput(move);
 
 				boolean legalMove = gameBoard.pickField(moveForBoard[0], moveForBoard[1], 'X'); 
 
@@ -41,11 +36,8 @@ public class TicTacToe{
 
 					move =  input.nextInt();
 					input.nextLine();
-					//secondNr =  input.nextInt();
-					//input.nextLine();
+
 					moveForBoard = game.changeInput(move);
-					//System.out.println();
-					//System.out.println(firstNr + ", " + secondNr);
 
 					legalMove = gameBoard.pickField(moveForBoard[0], moveForBoard[1], 'X');
 				}
@@ -59,11 +51,8 @@ public class TicTacToe{
 
 				move =  input.nextInt();
 				input.nextLine();
-				//secondNr =  input.nextInt();
-				//input.nextLine();
+
 				moveForBoard = game.changeInput(move);
-				//System.out.println();
-				//System.out.println(firstNr + ", " + secondNr);
 
 				boolean legalMove = gameBoard.pickField(moveForBoard[0], moveForBoard[1], 'O');
 
@@ -72,11 +61,8 @@ public class TicTacToe{
 
 					move =  input.nextInt();
 					input.nextLine();
-					//secondNr =  input.nextInt();
-					//input.nextLine();
+
 					moveForBoard = game.changeInput(move);
-					//System.out.println();
-					//System.out.println(firstNr + ", " + secondNr);
 
 					legalMove = gameBoard.pickField(moveForBoard[0], moveForBoard[1], 'O');
 				}
