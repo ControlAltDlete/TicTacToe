@@ -39,7 +39,7 @@ public class TicTacToe{
 			int move = 0;
 
                         while (legalMove == false) {
-                                System.out.println("Player " + playerNr + " move, choose a field to put an " + symbol + ": ");
+                                System.out.print("Player " + playerNr + " move, choose a field to put an " + symbol + ": ");
 
                                 try{
                                         move =  input.nextInt();
