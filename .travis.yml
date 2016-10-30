@@ -2,3 +2,9 @@ language: java
 
 jdk:
   - oraclejdk8
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "8b138b7d-8152-4d2c-8918-ba2f24372e41"
+  app: kad-ttt

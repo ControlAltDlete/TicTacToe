@@ -2,6 +2,10 @@
 
  cp ../build/libs/TicTacToe.jar  ../build/tmp/jar
 
+ echo "java -jar TicTacToe.jar" > RunTheGame.bat
+
+ mv RunTheGame.bat ../build/tmp/jar 
+ 
  java -jar ../build/tmp/jar/TicTacToe.jar
 
 
