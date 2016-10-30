@@ -6,83 +6,67 @@ import java.io.BufferedReader;
 import java.util.Scanner;
 
 public class TicTacToe{
+	private Board gameBoard;
+	private char symbol;
+	private int playerNr;
+	private boolean player1Turn;
+
 	public static void main(String[] args) throws IOException{
+		TicTacToe t = new TicTacToe();
+		t.playGame();
+	}
+
+	public TicTacToe(){
+		gameBoard = new Board();
+		symbol = 'X';
+		playerNr = 1;
+		player1Turn = true;
+	}
+
+	public void playGame(){
 		System.out.println("Welcome to the TicTacToe game of the century!");
-		
-		Board gameBoard = new Board();
-		Player player1 = new Player("Player 1");
-		Player player2 = new Player("Player 2");
-		boolean player1Turn = true;
-		int firstNr;
-		int secondNr;
-		Scanner input = new Scanner(System.in);
-
 		while(!(gameBoard.gameIsWon('X') || gameBoard.gameIsWon('O')) && !(gameBoard.gameIsDrawn())){
-			gameBoard.displayBoard();
-
-			if(player1Turn){
-				System.out.println("Player 2 move, choose a field to put an X: ");
-				
-				firstNr =  input.nextInt();
-				input.nextLine();
-				secondNr =  input.nextInt();
-				input.nextLine();
-
-				System.out.println();
-				System.out.println(firstNr + ", " + secondNr);
-				
-				boolean legalMove = gameBoard.pickField(firstNr, secondNr, 'X'); 
-				
-				while (!legalMove) {
-					System.out.print("Try again: ");
-				
-					firstNr =  input.nextInt();
-					input.nextLine();
-					secondNr =  input.nextInt();
-					input.nextLine();
-
-					System.out.println();
-					System.out.println(firstNr + ", " + secondNr);
-
-					legalMove = gameBoard.pickField(firstNr, secondNr, 'X');
-				}
-
-
-			 	player1Turn = false;
-				
-			}	
-			else{
-				System.out.println("Player 1 move, choose a field to put an O: ");
-
-				firstNr =  input.nextInt();
-				input.nextLine();
-				secondNr =  input.nextInt();
-				input.nextLine();
-
-				System.out.println();
-				System.out.println(firstNr + ", " + secondNr);
-
-				boolean legalMove = gameBoard.pickField(firstNr, secondNr, 'O');
-
-				while (!legalMove) {
-					System.out.print("Try again: ");
-				
-					firstNr =  input.nextInt();
-					input.nextLine();
-					secondNr =  input.nextInt();
-					input.nextLine();
-
-					System.out.println();
-					System.out.println(firstNr + ", " + secondNr);
-
-					legalMove = gameBoard.pickField(firstNr, secondNr, 'O');
-				}
-
-				player1Turn = true;
-				
-			}
+			takeTurn();
 		}
 		System.out.println();
-		gameBoard.displayBoard();
+                gameBoard.displayBoard();
 	}
+
+	public void takeTurn(){
+			Scanner input = new Scanner(System.in);
+                        gameBoard.displayBoard();
+                        boolean legalMove = false;
+			int move = 0;
+
+                        while (legalMove == false) {
+                                System.out.println("Player " + playerNr + " move, choose a field to put an " + symbol + ": ");
+
+                                try{
+                                        move =  input.nextInt();
+					legalMove = insertSymbol(move);
+                                }catch(java.util.InputMismatchException e){
+                                        System.out.println("Input has to be a number");
+                                        input.nextLine();
+                                }
+
+                        }
+
+                        symbol = player1Turn ? 'O' : 'X';
+                        playerNr = playerNr == 1 ? 2 : 1;
+                        player1Turn = !player1Turn;
+	}
+
+	public boolean insertSymbol(int move){
+		return gameBoard.pickField(getRow(move), getCol(move), symbol);
+	}
+
+	public static int getRow(int i){
+  		int toRow = ((i - 1)/3) % 3;
+    		return toRow;
+  	}
+
+	public static int getCol(int i){
+  		int toCol = (i - 1) % 3;
+    		return toCol;
+  	}
 }

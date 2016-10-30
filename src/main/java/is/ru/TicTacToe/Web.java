@@ -1,11 +1,11 @@
-/*package is.ru.TicTacToe;
+package is.ru.TicTacToe;
 
 import static spark.Spark.*;
 import spark.*;
 import spark.servlet.SparkApplication;
 
 public class Web implements SparkApplication{
-	
+
 	public static void main(String[] args) {
 		staticFileLocation("/public");
         	SparkApplication kad_ttt = new Web();
@@ -19,10 +19,15 @@ public class Web implements SparkApplication{
 	}
 
 	@Override
-	public void init() {
+    	public void init() {
         	final TicTacToe t = new TicTacToe();
-        	res.status(200);
-        	return res;
-    }
+		post("/makeMove", (req, res) -> {
+            	boolean test = t.insertSymbol(
+                	Integer.parseInt(req.queryParams("move"))
+            		);
+            	res.status(200);
+            	return test;
+        	});
+    	}
 }
-*/
+
