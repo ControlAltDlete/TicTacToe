@@ -3,9 +3,13 @@
 ##TicTacToe <br />
 The TicTacToe challenge is a simple game for two players, X and O, who take turns marking the spaces in a 3x3 grid.
 The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
-The following example is won by the second player, 0:
+The following example is won by the second player, O:
 
-image ....  
+	| O | X | O |
+	-------------
+	| X | O | X |   
+	-------------
+	| X | O | O |
 
 ##Initial Design <br />
 We made class diagram for the initial design we had in mind. The class diagram gives a good overview over the game's classes, their attributes, operations and/or methods.
