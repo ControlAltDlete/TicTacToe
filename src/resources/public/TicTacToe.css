@@ -1,0 +1,38 @@
+body{
+	margin: 0px auto;
+}
+
+h1, p{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1{
+	font-size: 4em;
+}
+
+p{
+	font-size: 2em;
+}
+
+table {
+	margin: 0px auto;
+    border-collapse: collapse;
+}
+
+tr:nth-child(-n+2){
+	border-bottom: 4px solid black;
+}
+
+tr td:nth-child(-n+2){
+	border-right: 4px solid black;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
