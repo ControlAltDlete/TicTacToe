@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.TicTacToeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-30T16:43:31" hostname="DESKTOP-ITL5A8B" time="0.0">
+<testsuite name="is.ru.TicTacToe.TicTacToeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-30T21:43:01" hostname="Taco" time="0.0">
   <properties/>
+  <testcase name="testIfInputIsChanged" classname="is.ru.TicTacToe.TicTacToeTest" time="0.0"/>
   <testcase name="testIfClassesAreCreated" classname="is.ru.TicTacToe.TicTacToeTest" time="0.0"/>
-  <testcase name="testIf" classname="is.ru.TicTacToe.TicTacToeTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
