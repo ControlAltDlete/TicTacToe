@@ -4,6 +4,5 @@
 -quiet 
 -windowtitle 'TicTacToe API'
 'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Board.java'
-'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Library.java'
 'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Player.java'
 'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\TicTacToe.java'
