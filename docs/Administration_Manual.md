@@ -1,10 +1,10 @@
 #Administration Manual
 
 ##Follow these few steps to play the game: <br />
-##Step 1: Download Git bash
+##Step 1: Download Git bash (Mac users can skip this step and use Terminal)
 Download Git bash from here --> https://git-scm.com/downloads
 
-##Step 2: Open Git bash and clone the repository 
+##Step 2: Open Git bash or Terminal(MacOX) and clone the repository 
 Clone the repository with the command __git clone https://github.com/KontrolAltDelete/TicTacToe__.
 
 ##Step 3: Go to the TicTacToe directory
