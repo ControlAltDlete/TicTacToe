@@ -76,7 +76,7 @@ Branches make it easier for us to work on seperate parts of the project and keep
 Branches also make the project easier to read if you go over it on GitHub.
 
 ###Markdown syntax and pair programming <br/ >
-Our documentation uses _markdown syntax_. We have three reportss to make our code more clear.
+We use _markdown syntax_ in our documentation. We have three reports to make our code more clear.
 They are all stored in a folder called docs on the root of the repository.
 We mostly use _pair programming_ to work on our project and think it is the most efficient way to work in big groups. 
 
