@@ -8,8 +8,8 @@ If you don't have a GitHub account already you'll have to create one before you 
 
 ###2. Setup the Ubuntu Server <br />
 If you don't have the Ubuntu Server setup already please start by following this Ubuntu Setup Manual: 
-[PDF Document](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
-(Push to view document). <br />
+[Push ME :point_up_2:](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
+. <br />
 
 ###3. Clone repository to your Ubuntu user account <br />
 Sign in to the Ubuntu Server as the user you created with the command __ssh your_username@82.221.48.15__.<br />
