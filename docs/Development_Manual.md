@@ -8,7 +8,7 @@ If you don't have a GitHub account already you'll have to create one before you 
 
 ###2. Setup the Ubuntu Server <br />
 If you don't have the Ubuntu Server setup already please start by following this Ubuntu Setup Manual: 
-[Push ME :point_up_2:](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
+[Setup directions](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
 . <br />
 
 ###3. Clone repository to your Ubuntu user account <br />
