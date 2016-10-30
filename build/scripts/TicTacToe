@@ -166,4 +166,8 @@ if [[ "$(uname)" == "Darwin" ]] && [[ "$HOME" == "$PWD" ]]; then
   cd "$(dirname "$0")"
 fi
 
+<<<<<<< HEAD
 exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" is.ru.TicTacToe.TicTacToe "$@"
+=======
+exec "$JAVACMD" "${JVM_OPTS[@]}" -classpath "$CLASSPATH" TicTacToe "$@"
+>>>>>>> origin/Documentation
