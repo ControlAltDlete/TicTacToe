@@ -8,7 +8,10 @@ Download Git bash from here --> https://git-scm.com/downloads.
 Clone the repository with the command __git clone https://github.com/KontrolAltDelete/TicTacToe__.
 
 ##Step 3: Go to the TicTacToe directory
-Go into TicTacToe/bin/ and type "sh deploy" using Git Bash.
+Go to the path where you saved the repository by typing th command __cd exambleFolderName__ into Git bash/Terminal, you can see where u currently are by typing in the command __ls__.
 
-##Step 4: Next go to the TicTacToe/build/tmp/jar directory 
+##Step 4: Type in the sh command
+Go into TicTacToe/bin/ and type __sh deploy__ using Git bash/Terminal.
+
+##Step 5: Next go to the TicTacToe/build/tmp/jar directory 
 There you can double click on "RunTheGame" to play the game and have fun :sunglasses:!
