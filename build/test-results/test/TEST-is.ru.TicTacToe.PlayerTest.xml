@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.TicTacToe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-29T15:22:11" hostname="i-1217c9a8.cs1004cloud.internal" time="0.0">
+<testsuite name="is.ru.TicTacToe.PlayerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-10-30T22:18:58" hostname="i-1217c9a8.cs1004cloud.internal" time="0.0">
   <properties/>
   <testcase name="testIfClassIsCreated" classname="is.ru.TicTacToe.PlayerTest" time="0.0"/>
   <testcase name="testIfNameIsSet" classname="is.ru.TicTacToe.PlayerTest" time="0.0"/>
