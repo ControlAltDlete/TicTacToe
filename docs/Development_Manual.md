@@ -7,10 +7,10 @@ If you don't have the Ubuntu Server setup already please start by following this
 ![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/pdfs/2016-advania-setup.pdf)
 
 ###Clone repository to your Ubuntu user account
-Sign in to the Ubuntu Server as the user you created with the command _ssh <username>@82.221.48.15_.
+Sign in to the Ubuntu Server as the user you created with the command __ssh <username>@82.221.48.15__.
 
 After you have signed in you can clone the repository from git at the root of the Server.
-To clone the repository you use the command _git clone https://github.com/KontrolAltDelete/TicTacToe.git_.
+To clone the repository you use the command __git clone https://github.com/KontrolAltDelete/TicTacToe.git__.
 
 Now you can start to code the project with us :smile:!
 
