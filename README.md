@@ -13,9 +13,10 @@
 * Sandra Ösp Stefánsdóttir - sandras15@ru.is  <br />
 * Sindri Örn Elvarsson - sindrie15@ru.is  <br />
 
-[Developers manual](docs/DeveloperManual.md)
+###Reports
+[Developers manual](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/Development_Manual.md)
 
-[Administration manual](docs/AdministratorManual.md)
+[Administration manual](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/Administration_Manual.md)
 
-[Design report](docs/DesignReport.md)
+[Design report](https://github.com/KontrolAltDelete/TicTacToe/blob/Documentation/docs/Design_Report.md)
 
