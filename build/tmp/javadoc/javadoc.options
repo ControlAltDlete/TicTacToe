@@ -1,0 +1,9 @@
+-classpath 'C:\\Users\\Carlos Ragnar\\TicTacToe\\build\\classes\\main;C:\\Users\\Carlos Ragnar\\TicTacToe\\build\\resources\\main;C:\\Users\\Carlos Ragnar\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.7.21\\139535a69a4239db087de9bab0bee568bf8e0b70\\slf4j-api-1.7.21.jar'
+-d 'C:\\Users\\Carlos Ragnar\\TicTacToe\\build\\docs\\javadoc'
+-doctitle 'TicTacToe API'
+-quiet 
+-windowtitle 'TicTacToe API'
+'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Board.java'
+'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Library.java'
+'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\Player.java'
+'C:\\Users\\Carlos Ragnar\\TicTacToe\\src\\main\\java\\is\\ru\\TicTacToe\\TicTacToe.java'
