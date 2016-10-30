@@ -8,7 +8,7 @@ Download Git bash from here --> https://git-scm.com/downloads.
 Clone the repository with the command __*git clone https://github.com/KontrolAltDelete/TicTacToe*__.
 
 ##Step 3: Go to the TicTacToe directory
-Go to the path where you saved the repository by typing th command __*cd exampleFolderName*__ into Git bash/Terminal, you can see where u currently are by typing in the command __*ls*__.
+Go to the path where you saved the repository by typing the command __*cd exampleFolderName*__ into Git bash/Terminal, you can see where you currently are by typing in the command __*ls*__.
 
 ##Step 4: Type in the sh command
 Go into TicTacToe/bin/ and type __*sh deploy*__ using Git bash/Terminal.
