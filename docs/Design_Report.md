@@ -10,13 +10,16 @@ image ....
 ##Initial Design <br />
 We made class diagram for the initial design we had in mind. The class diagram gives a good overview over the game's classes, their attributes, operations and/or methods.
 It also shows the relationships between the classes and how we decided on the branches to use. 
-We used the class diagram when we were programming the game although we knew it would probably change in the process.
+When programming the game, we used the class diagram although we knew the diagram would probably change in the process.
 <br /> 
 
 ![alt text](https://github.com/KontrolAltDelete/TicTacToe/blob/master/docs/images/Tictactoeclassdiagram.JPG)
 
 
 ##Coding Rules <br />
+When deciding on programming rules to follow, we looked for inspiration on Google.
+We designed our rules so that the code would be easier to read and understand.
+The following rules are the ones we decided upon and few examples to explain them a little better: <br />
 
 ###Brackets<br />
 All brackets should be opened at the end of a statement (class/function)  and closed in the beginning of a line. <br /> 
@@ -53,7 +56,7 @@ To name constants use uppercase for each word and seperate each pair of words wi
     final int MAX_COUNT = 10;
 
 ###Comments <br/>
-All one-line comments starts with "//"
+All one-line comments starts with "//".
 Use one-line comments to explain implementation details such as the purpose of specific variables and expressions. <br />
 Explain local variable declaration with and end-line comment.
 
@@ -65,17 +68,16 @@ When the code is succesful we can commit the code and then refactor it if necces
 
 ###Branches <br />
 We decided to use feature branches for every class in our project and one branch for all documentation.  
-Branches make it easier for us to work on seperate part of the project 
-Branch auðvelda okkur að vinna í sitthvorum hluta kerfis svo að við séum ekki að kóða ofan í hvort annað.
+Branches make it easier for us to work on seperate parts of the project and keeps us from getting merge conflicts. 
 Branches also make the project easier to read if you go over it on GitHub.
 
-###Markdown syntax <br/ >
-For our project we have three reports to our code more clear.
-Til þess að útskýra verkefnið enn frekar erum við með þrjár skýrslur sem allar eru geymdar í möppu sem heitir "docs" í rótinni á verkefninu. 
-Við notum _markdown syntax_ í skýrslunum. 
+###Markdown syntax and pair programming <br/ >
+Our documentation uses _markdown syntax_. We have three reportss to make our code more clear.
+They are all stored in a folder called docs on the root of the repository.
+We mostly use _pair programming_ to work on our project and think it is the most efficient way to work in big groups. 
 
-###Pair programming <br />
-Við studdumst að mestu leiti við _pair programming_ í þessu verkefni. Okkur finnst það góð aðferð til þess að læra hvort af öðru og hlutirnir ganga hraðar fyrir sig. Við skiptumst á að kóða, þar sem hinn aðilinn las jafnóðum yfir kóðann og kom með athugasemdir ef þurfti. 
+
+ 
 
 
 
